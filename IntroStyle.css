@@ -158,3 +158,25 @@ main .Keahlian .containerGridSkill {
     text-align: justify;
     font-size: 0.9rem;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #4f46e5, #6366f1);
+    width: 100%;
+    height: 25vh;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer .imgfooter {
+    background-image: url("IMGFadjar/AI.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 20vh;
+}
+
+footer p  {
+    color: white;
+}
