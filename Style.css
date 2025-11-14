@@ -5,33 +5,49 @@ body {
     height: 90vh;
     flex-direction: column;
 }
+.title {
+    font-size: 67px;
+    padding: 0;
+    margin: 0;
+}
+
+.ContainerBtn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
 
 a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
     text-decoration: none;
+    
 }
 
 button {
     width: 150px;
     height: 150px;
-    padding: 15px;
-    margin: 15px;
     border-radius: 15px;
     background-size: contain;
     background-repeat: no-repeat;
+    border: 0;
 }
 
 .Van {
-    background-image: url("JhonNiGHT.png");
+    background-image: url("./Image/JhonNiGHT.png");
 }
 
 .Jus {
-    background-image: url("ParryEveryhing.png");
+    background-image: url("./Image/ParryEveryhing.png");
 }
 
 .Drew {
-    background-image: url("TakesEverthings.png");
+    background-image: url("./Image/TakesEverthings.png");
 }
 
 .Jar {
-    background-image: url("Bulleyes.png");
+    background-image: url("./Image/Bulleyes.png");
 }
