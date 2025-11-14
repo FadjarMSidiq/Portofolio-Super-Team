@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+        }
+
+        header {
+            background-color: #313647;
+            display: flex;
+            align-items: center;
+            padding: 20px;
+            width: 100%;
+        }
+
+        h3,
+        h1 {
+            margin: 0;
+        }
+
+        #img-container {
+            display: flex;
+            justify-content: center;
+            width: 35%;
+        }
+
+        #img-container > img {
+            border-radius: 50%;
+            border: 5px solid #A3B087;
+            width: 300px;
+            height: 300px;
+        }
+
+        #name-container {
+            width: 65%;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #main-container {
+            width: 70%;
+            padding: 50px 0;
+        }
+
+        .box {
+            display: flex;
+            column-gap: 20px;
+            margin: 20px;
+        }
+
+        .hobby-container {
+            background-color: #A3B087;
+            border-radius: 50px;
+            box-shadow: 1px 1px 3px #8f8f8f;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 150px;
+        }
+
+        .header-font {
+            font: bold 3em "Verdana", "Helvetica", "Arial", sans-serif;
+            color: #A3B087;
+        }
+
+        .second-header-font {
+            font: 1em "Verdana", "Helvetica", "Arial", sans-serif;
+            color: #FFF8D4;
+        }
+
+        .sub-header-font {
+            font: bold 1.5em "Verdana", "Helvetica", "Arial", sans-serif;
+            color: #435663;
+        }
+
+        .content-font {
+            font: bold .8em "Verdana", "Helvetica", "Arial", sans-serif;
+            color: #313647;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="img-container">
+            <img src="Image/JhonNiGHT.png" alt="My profile picture">
+        </div>
+        <div id="name-container">
+            <h3 class="second-header-font">Pembenci javascript</h3>
+            <h1 class="header-font">Vandyka Suryadi</h1>
+        </div>
+    </header>
+    <main>
+        <div id="main-container">
+            <section>
+                <h3 class="sub-header-font">Hobi</h3>
+                <hr>
+                <div class="box">
+                    <div class="hobby-container">
+                        <p class="content-font">Tidur</p>
+                    </div>
+                    <div class="hobby-container">
+                        <p class="content-font">Main game</p>
+                    </div>
+                    <div class="hobby-container">
+                        <p class="content-font">Membaca</p>
+                    </div>
+                    <div class="hobby-container">
+                        <p class="content-font">Makan</p>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h3 class="sub-header-font">Keahlian</h3>
+                <hr>
+                <div class="box">
+                    <div class="hobby-container">
+                        <p class="content-font">Java</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
